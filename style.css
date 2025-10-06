@@ -7,7 +7,7 @@
     --link-color: orange;
     --link-visited: orange;
     --link-hover: darkorange;
-    --secret-color: rgb(214, 214, 214);
+    --secret-color: rgb(197, 197, 197);
 }
 
 body {
@@ -218,5 +218,6 @@ blockquote p {
 .secret:hover::after {
     content: ' of this element';
 }
+
 
 
