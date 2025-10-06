@@ -46,31 +46,29 @@ nav li {
     padding: 0.6rem 0;
 }
 
-nav li a {
+nav li  {
     color: var(--font-color);
     text-decoration: none;
     padding: 0.6rem;
 }
 
-footer li a {
+footer li {
     color: var(--font-color);
     padding: 0.2rem;
+    text-decoration: underline;
 }
 
-nav li a:visited, footer li a:visited {
+footer li a, footer li a:hover, footer li a:active, footer li a:visited {
     color: var(--font-color);
 }
 
-nav li a:hover, footer li a:hover {
+nav li:hover, footer li:hover {
     background-color: var(--border-color);
+    cursor: pointer;
 }
 
-footer li a:hover {
+footer li:hover {
     text-decoration: none;
-}
-
-nav li a:active, footer li a:active {
-    color: var(--font-color);
 }
 
 footer {
@@ -94,8 +92,9 @@ article {
     gap: 1.6rem;
 }
 
-a {
+a, .link {
     color: var(--link-color);
+    text-decoration: underline;
 }
 
 a:visited {
@@ -104,6 +103,10 @@ a:visited {
 
 a:hover {
     color: var(--link-hover);
+}
+
+.link:hover {
+    cursor: pointer;
 }
 
 a:active {
@@ -216,8 +219,5 @@ blockquote p {
 }
 
 .secret:hover::after {
-    content: ' of this element';
+    content: ' of the element';
 }
-
-
-
