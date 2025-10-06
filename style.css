@@ -112,6 +112,7 @@ a:active {
 
 p img {
     width: 100%;
+    max-width: 500px;
 }
 
 .left {
@@ -217,4 +218,5 @@ blockquote p {
 .secret:hover::after {
     content: ' of this element';
 }
+
 
